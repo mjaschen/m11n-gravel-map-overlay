@@ -1,0 +1,15 @@
+data
+localconfig*.json
+mapnik.xml
+*.pyc
+package.json
+node_modules
+yarn.lock
+package-lock.json
+dem/
+scripts/test/*.png
+scripts/test/*.txt
+tmp/
+.kosmtik-config.yml
+.env
+*.osm.pbf
