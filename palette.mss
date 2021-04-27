@@ -11,13 +11,13 @@
  *
  */
 
-@m11n-poi-opacity: 0.8;
+@m11n-poi-opacity: 1.0;
 
 @m11n-amenity-water: #137cd3;
 @m11n-fuel-icon: #16738f;
 
 @bicycle-amenity: #ac39ac;
-@health-color: #444;
+@health-color: #a03;
 @amenity-water: #137cd3;
 @amenity-common: #666;
 @shop-icon: #666;

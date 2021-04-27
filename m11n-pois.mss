@@ -3,7 +3,7 @@
   [type='landuse_cemetery'] {
     [zoom >= 12] {
       marker-file: url('symbols/tomb_stone.svg');
-      marker-fill: #666;
+      marker-fill: @m11n-amenity-water;
       marker-placement: interior;
       marker-clip: false;
       marker-width: 12;
@@ -17,7 +17,7 @@
   [feature = 'amenity_fuel'][zoom >= 13],
   [feature = 'shop_gas'][zoom >= 13] {
     marker-file: url('symbols/openstreetmap-carto/amenity/fuel.svg');
-    marker-fill: @m11n-fuel-icon;
+    marker-fill: @m11n-amenity-water;
     marker-placement: interior;
     marker-clip: false;
     marker-opacity: @m11n-poi-opacity;
@@ -57,7 +57,7 @@
   [feature = 'shop_supermarket'][zoom >= 13] {
     marker-placement: interior;
     marker-clip: false;
-    marker-fill: @shop-icon;
+    marker-fill: @m11n-amenity-water;
     marker-opacity: @m11n-poi-opacity;
     marker-file: url('symbols/openstreetmap-carto/shop/supermarket.svg');
   }
