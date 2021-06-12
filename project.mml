@@ -168,7 +168,7 @@ Layer:
             WHEN tags->'smoothness' IN ('very_bad')
               THEN 'cyclocross'
             WHEN (tags->'smoothness' IN ('bad') AND tracktype IN ('grade3'))
-              THEN 'cyclocross'
+              THEN 'gravel'
 
             WHEN tracktype IN ('grade4', 'grade5')
               THEN 'mtb'
@@ -177,7 +177,7 @@ Layer:
             WHEN tracktype IN ('grade2')
               THEN 'gravel'
 
-            WHEN (surface IN ('dirt', 'earth', 'grass', 'grass_paver', 'gravel_turf', 'ground', 'mud', 'sand') AND highway = 'path' AND tags->'smoothness' IN ('bad'))
+            WHEN (surface IN ('dirt', 'earth', 'grass', 'grass_paver', 'gravel_turf', 'ground', 'mud', 'sand') AND highway = 'path' AND tags->'smoothness' IN ('bad', 'very_bad'))
               THEN 'cyclocross'
             WHEN surface IN ('bad', 'pebblestone', 'dirt', 'earth', 'grass', 'grass_paver', 'gravel_turf', 'ground', 'mud', 'sand')
               THEN 'mtb'
