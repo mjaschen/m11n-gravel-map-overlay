@@ -20,6 +20,10 @@ brouter.m11n.de renders the gravel tiles for Germany, Austria and Switzerland.
 
 (Map Data: © OpenStreetMap Contributors)
 
+## Development
+
+Start Tile Server: `docker compose up -d kosmtik`, open in browser: <http://0.0.0.0:6789>
+
 ----
 
 CyclOSM
