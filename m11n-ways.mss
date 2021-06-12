@@ -65,7 +65,7 @@
         [zoom>=18] { line-offset: @rdz18_gravel_offset; }
 
         [surface_type='cyclocross'] {
-            line-color: #fff;
+            line-color: rgba(255, 255, 255, 0.9);
             line-dasharray: none;
 
             line-width: @rdz11_track * @factor_line_width_cc * @factor_line_width_cc_case;
@@ -79,8 +79,7 @@
         }
 
         [surface_type='gravel'] {
-            line-color: #fff;
-            line-color: @m11n_gravel_color;
+            line-color: rgba(255, 255, 255, 0.7);
             line-dasharray: none;
         }
     }
