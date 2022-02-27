@@ -5,9 +5,9 @@ required minimum for rendering the gravel overlay. All documention etc. was kept
 for more info on CyclOSM.
 
 The gravel layer is visible in zoom levels 11 and up. To get an idea on how it looks,
-take a look on the following screenshot or try it out on **[https://brouter.m11n.de/](https://brouter.m11n.de/#map=11/52.5014/13.3741/standard,m11n%20Gravel%20%E2%AD%90%EF%B8%8F%E2%AD%90%EF%B8%8F%E2%AD%90%EF%B8%8F&profile=m11n-gravel-pre)**.
+take a look on the following screenshot or try it out on **[https://bikerouter.de/](https://bikerouter.de/#map=11/52.5014/13.3741/standard,m11n%20Gravel%20%E2%AD%90%EF%B8%8F%E2%AD%90%EF%B8%8F%E2%AD%90%EF%B8%8F&profile=m11n-gravel-pre)**.
 
-brouter.m11n.de renders the gravel tiles for Germany, Austria and Switzerland.
+bikerouter.de renders the gravel tiles for Germany, Austria and Switzerland (AKA “DACH” region).
 
 ## Map Keys
 
